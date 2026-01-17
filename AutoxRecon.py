@@ -19,7 +19,29 @@ BANNER = r"""
         Type 'help' to get help
         Type 'scan example.com' to get scan the domain
 """
+# ===================== TOOL LISTS ===================== #
 
+APT_TOOLS = [
+    "nmap",
+    "subfinder",
+    "amass",
+    "eyewitness",
+    "dnsutils",
+    "whois",
+    "jq",
+    "curl",
+    "wget",
+    "git",
+    "arjun"
+]
+
+GO_TOOLS = {
+    "assetfinder": "github.com/tomnomnom/assetfinder@latest",
+    "httprobe": "github.com/tomnomnom/httprobe@latest",
+    "katana": "github.com/projectdiscovery/katana/cmd/katana@latest",
+    "subjack": "github.com/haccer/subjack@latest",
+    "waybackurls": "github.com/tomnomnom/waybackurls@latest"
+}
 
 
 
